@@ -93,8 +93,8 @@ class account {
     }
 
     double calcsavingWithdraw(double amt) {
-        CB = CB - amt;
-        return CB;
+        SB = SB - amt;
+        return SB;
 
     }
 
@@ -113,8 +113,8 @@ class account {
 
     // deposite call
     double calcSavingDeposite(double amtt) {
-        CB = CB + amtt;
-        return CB;
+        SB = SB + amtt;
+        return SB;
     }
 
 }
